@@ -1,0 +1,72 @@
+[
+  {
+    "id" : "elga.iv.hi",
+    "type" : "ImplementationGuide",
+    "url" : "https://hi.iv.elga.gv.at//ImplementationGuide/elga.iv.hi",
+    "version" : "0.1.0",
+    "name" : "IntegrierteVersorgungHerzinsuffizienz"
+  },
+  {
+    "id" : "AkteurHI",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/AkteurHI",
+    "version" : "0.1.0",
+    "name" : "AkteurHI"
+  },
+  {
+    "id" : "CDAPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/CDAPatient",
+    "version" : "0.1.0",
+    "name" : "CDAPatient"
+  },
+  {
+    "id" : "ErstdokumentationHI",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/ErstdokumentationHI",
+    "version" : "0.1.0",
+    "name" : "ErstdokumentationHI"
+  },
+  {
+    "id" : "FolgedokumentationHI",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/FolgedokumentationHI",
+    "version" : "0.1.0",
+    "name" : "FolgedokumentationHI"
+  },
+  {
+    "id" : "PatientHI",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/PatientHI",
+    "version" : "0.1.0",
+    "name" : "PatientHI"
+  },
+  {
+    "id" : "at-core-address",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/at-core-address",
+    "version" : "0.1.0",
+    "name" : "HL7ATCoreAddress"
+  },
+  {
+    "id" : "at-core-ext-address-additionalInformation",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/at-core-ext-address-additionalInformation",
+    "version" : "0.1.0",
+    "name" : "AddressAdditionalInformation"
+  },
+  {
+    "id" : "at-core-ext-patient-religion",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/at-core-ext-patient-religion",
+    "version" : "0.1.0",
+    "name" : "PatientReligion"
+  },
+  {
+    "id" : "at-core-patient",
+    "type" : "StructureDefinition",
+    "url" : "https://hi.iv.elga.gv.at//StructureDefinition/at-core-patient",
+    "version" : "0.1.0",
+    "name" : "HL7ATCorePatient"
+  }
+]
