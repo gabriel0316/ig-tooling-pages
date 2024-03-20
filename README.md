@@ -1,1 +1,1 @@
-java -jar -Dfile.encoding=UTF-8 -Xms3550m -Xmx3550m publisher.jar -go-publish -source ../gkl_ig-tooling -web web-root -registry ig-registry/fhir-ig-list.json -history ig-history -templates fhir-web-templates -temp buildtmp
+java -jar -Dfile.encoding=UTF-8 -Xms3550m -Xmx3550m publisher.jar -go-publish -source $(pwd)/../gkl_ig-tooling -web web-root -registry ig-registry/fhir-ig-list.json -history ig-history -templates fhir-web-templates -temp buildtmp
