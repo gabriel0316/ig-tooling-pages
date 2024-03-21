@@ -1,17 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
 	<channel>
 		<title>GKL FHIR Packages</title>
 		<description>New Packages published by GKL</description>
 		<link>https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml</link>
 		<generator>GKL FHIR Publication tooling</generator>
-		<lastBuildDate>Tue, 05 Mar 2024 12:06:02 +0100</lastBuildDate>
-		<atom:link href="https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" rel="self" type="application/rss+xml" />
-		<pubDate>Tue, 05 Mar 2024 12:06:02 +0100</pubDate>
+		<lastBuildDate>Thu, 21 Mar 2024 10:57:32 +0000</lastBuildDate>
+		<atom:link href="https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" rel="self" type="application/rss+xml"/>
+		<pubDate>Thu, 21 Mar 2024 10:57:32 +0000</pubDate>
 		<language>en</language>
 		<ttl>600</ttl>
-		<item />
+		<item>
+      <title>hl7.at.fhir.gkl.ig-tooling#0.1.0</title>
+      <description>First attempt of release</description>
+      <link>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.1.0/package.tgz</link>
+      <guid isPermaLink="true">https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.1.0/package.tgz</guid>
+      <dc:creator>GKL</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Thu, 21 Mar 2024 10:57:32 +0000</pubDate>
+      <fhir:details>Publication run at 21/03/2024 by c9826fd5204e using vVersion 1.6.2 (Git# 035eba9a4db7). Built 2024-03-19T09:11:46.594Z (49 hours old) source id Unknown (todo) Run #1</fhir:details>
+    </item>
 	</channel>
 </rss>
