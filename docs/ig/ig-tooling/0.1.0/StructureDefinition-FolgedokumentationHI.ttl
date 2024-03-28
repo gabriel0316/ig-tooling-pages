@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FolgedokumentationHI"] ; # 
   fhir:title [ fhir:v "Medizinische Datensätze - Folgedokumentation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-21T11:04:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-28T07:55:17+00:00"^^xsd:dateTime] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:kind [ fhir:v "logical"] ; # 
   fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 

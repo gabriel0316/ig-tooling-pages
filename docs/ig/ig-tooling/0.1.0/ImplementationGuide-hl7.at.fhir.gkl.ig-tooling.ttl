@@ -10,13 +10,14 @@
   fhir:id [ fhir:v "hl7.at.fhir.gkl.ig-tooling"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>IntegrierteVersorgungHerzinsuffizienz</h2><p>The official URL for this implementation guide is: </p><pre>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>IntegrierteVersorgungHerzinsuffizienz</h2><p>The official URL for this implementation guide is: </p><pre>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling</pre><div><p>This IG is built in order to describe the IG tooling in Austria.</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "IntegrierteVersorgungHerzinsuffizienz"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-21T11:04:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-28T07:55:17+00:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "This IG is built in order to describe the IG tooling in Austria."] ; # 
   fhir:packageId [ fhir:v "hl7.at.fhir.gkl.ig-tooling"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 

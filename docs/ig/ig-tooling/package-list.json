@@ -12,7 +12,7 @@
       "status" : "trial-use",
       "sequence" : "DSTU 1",
       "fhirversion" : "4.0.1",
-      "date" : "2024-03-21",
+      "date" : "2024-03-28",
       "desc" : "First attempt of release",
       "changes" : "changelog.html"
     }
@@ -20,6 +20,6 @@
   "package-id" : "hl7.at.fhir.gkl.ig-tooling",
   "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
   "title" : "IG Tooling by GKL",
-  "category" : "National Base",
+  "category" : "Research",
   "introduction" : "Test introduction"
 }

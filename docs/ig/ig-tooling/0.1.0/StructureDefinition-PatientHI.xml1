@@ -37,7 +37,7 @@
   <name value="PatientHI"/>
   <title value="Patienten-Stammdaten"/>
   <status value="draft"/>
-  <date value="2024-03-21T11:04:15+00:00"/>
+  <date value="2024-03-28T07:55:17+00:00"/>
   <description value="Patient/Teilnehmer basierend dem Entwurf der Datenspezifikation des modularen Rahmenkonzepts für Österreich für das Disease-Management bei chronischer Herzinsuffizienz."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

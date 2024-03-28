@@ -66,7 +66,7 @@ Regelung in Bezug auf NT-proBNP ist unabdingbar und sollte entsprechend priorisi
   <name value="ErstdokumentationHI"/>
   <title value="Medizinische Datensätze - Erstdokumentation (im Rahmen der Erstabklärung erhoben/durchgeführt)"/>
   <status value="draft"/>
-  <date value="2024-03-21T11:04:15+00:00"/>
+  <date value="2024-03-28T07:55:17+00:00"/>
   <fhirVersion value="4.0.1"/>
   <kind value="logical"/>
   <abstract value="false"/>

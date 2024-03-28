@@ -14,7 +14,7 @@
   <name value="AddressAdditionalInformation"/>
   <title value="Address Additional Information"/>
   <status value="draft"/>
-  <date value="2024-03-21T11:04:15+00:00"/>
+  <date value="2024-03-28T07:55:17+00:00"/>
   <description value="HL7® Austria FHIR® Core Extension for the additional information part of the Austrian address."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "PatientHI"] ; # 
   fhir:title [ fhir:v "Patienten-Stammdaten"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-21T11:04:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-28T07:55:17+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Patient/Teilnehmer basierend dem Entwurf der Datenspezifikation des modularen Rahmenkonzepts für Österreich für das Disease-Management bei chronischer Herzinsuffizienz."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [

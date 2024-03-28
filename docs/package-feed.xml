@@ -4,12 +4,12 @@
 		<description>New Packages published by GKL</description>
 		<link>https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml</link>
 		<generator>GKL FHIR Publication tooling</generator>
-		<lastBuildDate>Thu, 21 Mar 2024 10:57:32 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 28 Mar 2024 07:51:10 +0000</lastBuildDate>
 		<atom:link href="https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" rel="self" type="application/rss+xml"/>
-		<pubDate>Thu, 21 Mar 2024 10:57:32 +0000</pubDate>
+		<pubDate>Thu, 28 Mar 2024 07:51:10 +0000</pubDate>
 		<language>en</language>
 		<ttl>600</ttl>
-		<item>
+    <item>
       <title>hl7.at.fhir.gkl.ig-tooling#0.1.0</title>
       <description>First attempt of release</description>
       <link>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.1.0/package.tgz</link>
@@ -17,8 +17,9 @@
       <dc:creator>GKL</dc:creator>
       <fhir:version>4.0.1</fhir:version>
       <fhir:kind>IG</fhir:kind>
-      <pubDate>Thu, 21 Mar 2024 10:57:32 +0000</pubDate>
-      <fhir:details>Publication run at 21/03/2024 by c9826fd5204e using vVersion 1.6.2 (Git# 035eba9a4db7). Built 2024-03-19T09:11:46.594Z (49 hours old) source id Unknown (todo) Run #1</fhir:details>
+      <pubDate>Thu, 28 Mar 2024 07:51:10 +0000</pubDate>
+      <fhir:details>Publication run at 28/03/2024 by c9826fd5204e using vVersion 1.6.3 (Git# 58fd9ba64d35). Built 2024-03-20T17:15:59.428Z (7 days old) source id Unknown (todo) Run #1</fhir:details>
     </item>
+    <item/>
 	</channel>
 </rss>

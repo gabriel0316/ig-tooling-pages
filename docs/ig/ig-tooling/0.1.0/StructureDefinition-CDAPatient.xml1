@@ -31,7 +31,7 @@
   <name value="CDAPatient"/>
   <title value="CDAPatient"/>
   <status value="draft"/>
-  <date value="2024-03-21T11:04:15+00:00"/>
+  <date value="2024-03-28T07:55:17+00:00"/>
   <description value="Some Patient"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

@@ -3,13 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.at.fhir.gkl.ig-tooling"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>IntegrierteVersorgungHerzinsuffizienz</h2><p>The official URL for this implementation guide is: </p><pre>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>IntegrierteVersorgungHerzinsuffizienz</h2><p>The official URL for this implementation guide is: </p><pre>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling</pre><div><p>This IG is built in order to describe the IG tooling in Austria.</p>
+</div></div>
   </text>
   <url value="https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling"/>
   <version value="0.1.0"/>
   <name value="IntegrierteVersorgungHerzinsuffizienz"/>
   <status value="draft"/>
-  <date value="2024-03-21T11:04:15+00:00"/>
+  <date value="2024-03-28T07:55:17+00:00"/>
+  <description value="This IG is built in order to describe the IG tooling in Austria."/>
   <packageId value="hl7.at.fhir.gkl.ig-tooling"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>

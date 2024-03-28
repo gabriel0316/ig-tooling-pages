@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "PatientReligion"] ; # 
   fhir:title [ fhir:v "Patient Religion"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-21T11:04:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-28T07:55:17+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "HL7® Austria FHIR® Core Extension for the religion (registered in Austria) of a patient.\r\nThe extension is used to encode the religious confession of a patient (only confessions registered in Austria). Furthermore, it uses the official [HL7 AT CodeSystem](https://termpub.gesundheit.gv.at:443/TermBrowser/gui/main/main.zul?loadType=CodeSystem&loadName=HL7 AT ReligionAustria) for religion and is therefore aligned with the ELGA ValueSet, respectively."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [

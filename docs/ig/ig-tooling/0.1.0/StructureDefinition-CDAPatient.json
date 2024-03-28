@@ -35,7 +35,7 @@
   "name" : "CDAPatient",
   "title" : "CDAPatient",
   "status" : "draft",
-  "date" : "2024-03-21T11:04:15+00:00",
+  "date" : "2024-03-28T07:55:17+00:00",
   "description" : "Some Patient",
   "fhirVersion" : "4.0.1",
   "mapping" : [{

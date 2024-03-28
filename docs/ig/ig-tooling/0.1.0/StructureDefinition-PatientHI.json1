@@ -10,7 +10,7 @@
   "name" : "PatientHI",
   "title" : "Patienten-Stammdaten",
   "status" : "draft",
-  "date" : "2024-03-21T11:04:15+00:00",
+  "date" : "2024-03-28T07:55:17+00:00",
   "description" : "Patient/Teilnehmer basierend dem Entwurf der Datenspezifikation des modularen Rahmenkonzepts für Österreich für das Disease-Management bei chronischer Herzinsuffizienz.",
   "fhirVersion" : "4.0.1",
   "mapping" : [{

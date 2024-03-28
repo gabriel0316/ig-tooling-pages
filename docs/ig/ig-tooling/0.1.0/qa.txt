@@ -1,20 +1,20 @@
 IntegrierteVersorgungHerzinsuffizienz : Validation Results
 =========================================
 
-err = 4, warn = 406, info = 10
-IG Publisher Version: 1.6.2 Out of date - current version is 1.6.3
-Generated Thu Mar 21 11:16:10 GMT 2024. FHIR version 4.0.1 for hl7.at.fhir.gkl.ig-tooling#0.1.0 (canonical = https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling)
+err = 4, warn = 406, info = 0
+IG Publisher Version: 1.6.3
+Generated Thu Mar 28 08:02:09 GMT 2024. FHIR version 4.0.1 for hl7.at.fhir.gkl.ig-tooling#0.1.0 (canonical = https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling)
  Build Errors : 0 / 6 / 0
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/ImplementationGuide-hl7.at.fhir.gkl.ig-tooling : 0 / 0 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-AkteurHI : 1 / 52 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-CDAPatient : 1 / 0 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-ErstdokumentationHI : 1 / 127 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-FolgedokumentationHI : 1 / 148 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-PatientHI : 0 / 67 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-at-core-address : 0 / 1 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-at-core-ext-address-additionalInformation : 0 / 2 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-at-core-ext-patient-religion : 0 / 2 / 2
- /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-at-core-patient : 0 / 1 / 2
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/ImplementationGuide-hl7.at.fhir.gkl.ig-tooling : 0 / 0 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-AkteurHI : 1 / 52 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-CDAPatient : 1 / 0 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-ErstdokumentationHI : 1 / 127 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-FolgedokumentationHI : 1 / 148 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-PatientHI : 0 / 67 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-at-core-address : 0 / 1 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-at-core-ext-address-additionalInformation : 0 / 2 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-at-core-ext-patient-religion : 0 / 2 / 1
+ /tmp/fsh-ing-grounds/GKL/gkl_ig-tooling-pages/buildtmp/hl7.at.fhir.gkl.ig-tooling#0.1.0/fsh-generated/resources/StructureDefinition-at-core-patient : 0 / 1 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ErstdokumentationHI.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -24,7 +24,6 @@ WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in 
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-hl7.at.fhir.gkl.ig-tooling.json ==
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-AkteurHI.json ==
 ERROR: StructureDefinition/AkteurHI: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
 WARNING: StructureDefinition/AkteurHI: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
@@ -79,10 +78,8 @@ WARNING: StructureDefinition/AkteurHI: StructureDefinition.differential.element[
 WARNING: StructureDefinition/AkteurHI: StructureDefinition.differential.element[18]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/AkteurHI: StructureDefinition.differential.element[19]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/AkteurHI: StructureDefinition.differential.element[20]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-CDAPatient.json ==
 ERROR: StructureDefinition/CDAPatient: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-ErstdokumentationHI.json ==
 ERROR: StructureDefinition/ErstdokumentationHI: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
 WARNING: StructureDefinition/ErstdokumentationHI: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
@@ -212,7 +209,6 @@ WARNING: StructureDefinition/ErstdokumentationHI: StructureDefinition.differenti
 WARNING: StructureDefinition/ErstdokumentationHI: StructureDefinition.differential.element[48]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/ErstdokumentationHI: StructureDefinition.differential.element[49]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/ErstdokumentationHI: StructureDefinition.differential.element[50]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-FolgedokumentationHI.json ==
 ERROR: StructureDefinition/FolgedokumentationHI: StructureDefinition.snapshot: Constraint failed: sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities'
 WARNING: StructureDefinition/FolgedokumentationHI: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
@@ -363,7 +359,6 @@ WARNING: StructureDefinition/FolgedokumentationHI: StructureDefinition.different
 WARNING: StructureDefinition/FolgedokumentationHI: StructureDefinition.differential.element[54]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/FolgedokumentationHI: StructureDefinition.differential.element[55]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/FolgedokumentationHI: StructureDefinition.differential.element[56]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-PatientHI.json ==
 WARNING: StructureDefinition/PatientHI: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/PatientHI: StructureDefinition.snapshot.element[2]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
@@ -432,18 +427,13 @@ WARNING: StructureDefinition/PatientHI: StructureDefinition.differential.element
 WARNING: StructureDefinition/PatientHI: StructureDefinition.differential.element[24]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/PatientHI: StructureDefinition.differential.element[25]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
 WARNING: StructureDefinition/PatientHI: StructureDefinition.differential.element[26]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken'
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-at-core-address.json ==
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/StructureDefinition/at-core-address'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-at-core-ext-address-additionalInformation.json ==
 WARNING: StructureDefinition/at-core-ext-address-additionalInformation: StructureDefinition.context[0]: Review the extension type for at-core-ext-address-additionalInformation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/StructureDefinition/at-core-ext-address-additionalInformation'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-at-core-ext-patient-religion.json ==
 WARNING: StructureDefinition/at-core-ext-patient-religion: StructureDefinition.context[0]: Review the extension type for at-core-ext-patient-religion: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/StructureDefinition/at-core-ext-patient-religion'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-at-core-patient.json ==
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/StructureDefinition/at-core-patient'): The Implementation Guide contains no examples for this profile

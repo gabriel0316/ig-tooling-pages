@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AddressAdditionalInformation"] ; # 
   fhir:title [ fhir:v "Address Additional Information"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-21T11:04:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-28T07:55:17+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "HL7® Austria FHIR® Core Extension for the additional information part of the Austrian address."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
