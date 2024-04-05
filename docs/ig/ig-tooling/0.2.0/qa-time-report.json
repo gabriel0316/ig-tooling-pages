@@ -1,0 +1,847 @@
+{
+  "date" : "Fri, 05 Apr, 2024 10:12:45 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-hl7.at.fhir.gkl.ig-tooling.json",
+      "size" : 6120,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 25
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 310,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 310,
+          "length" : 272
+        },
+        {
+          "activity" : "validate",
+          "start" : 324,
+          "length" : 1367
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 327,
+          "length" : 3852
+        },
+        {
+          "activity" : "generate2",
+          "start" : 551,
+          "length" : 377
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 5
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 780,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-AkteurHI.json",
+      "size" : 7115,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 35
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 308,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 308,
+          "length" : 1
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 308,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 32
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 308,
+          "length" : 136
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 310,
+          "length" : 262
+        },
+        {
+          "activity" : "validate",
+          "start" : 315,
+          "length" : 937
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 326,
+          "length" : 2
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 331,
+          "length" : 11403
+        },
+        {
+          "activity" : "generate2",
+          "start" : 551,
+          "length" : 5442
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 713,
+          "length" : 1
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 3
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 3
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-CDAPatient.json",
+      "size" : 1534,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 24
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 308,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 308,
+          "length" : 78
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 310,
+          "length" : 64
+        },
+        {
+          "activity" : "validate",
+          "start" : 316,
+          "length" : 550
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 342,
+          "length" : 4762
+        },
+        {
+          "activity" : "generate2",
+          "start" : 557,
+          "length" : 2189
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 3
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 4
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 780,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 780,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ErstdokumentationHI.json",
+      "size" : 21175,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 13
+        },
+        {
+          "activity" : "scan",
+          "start" : 308,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 27
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 308,
+          "length" : 201
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 310,
+          "length" : 320
+        },
+        {
+          "activity" : "validate",
+          "start" : 317,
+          "length" : 1103
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 347,
+          "length" : 28039
+        },
+        {
+          "activity" : "generate2",
+          "start" : 559,
+          "length" : 3388
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 713,
+          "length" : 1
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 6
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 5
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 5
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-FolgedokumentationHI.json",
+      "size" : 23250,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 10
+        },
+        {
+          "activity" : "scan",
+          "start" : 308,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 39
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 309,
+          "length" : 170
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 311,
+          "length" : 385
+        },
+        {
+          "activity" : "validate",
+          "start" : 318,
+          "length" : 1258
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 326,
+          "length" : 2
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 375,
+          "length" : 35818
+        },
+        {
+          "activity" : "generate2",
+          "start" : 562,
+          "length" : 4454
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 5
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 740,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 18
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 780,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PatientHI.json",
+      "size" : 10893,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 12
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 308,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 37
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 309,
+          "length" : 146
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 311,
+          "length" : 431
+        },
+        {
+          "activity" : "validate",
+          "start" : 319,
+          "length" : 964
+        },
+        {
+          "activity" : "generate1",
+          "start" : 411,
+          "length" : 15392
+        },
+        {
+          "activity" : "generate2",
+          "start" : 567,
+          "length" : 2885
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 740,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-at-core-address.json",
+      "size" : 5753,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 6
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 308,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 21
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 309,
+          "length" : 199
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 310,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 311,
+          "length" : 173
+        },
+        {
+          "activity" : "validate",
+          "start" : 320,
+          "length" : 421
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 426,
+          "length" : 8227
+        },
+        {
+          "activity" : "generate2",
+          "start" : 570,
+          "length" : 2306
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 740,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 780,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-at-core-ext-address-additionalInformation.json",
+      "size" : 1563,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 8
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 308,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 14
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 309,
+          "length" : 62
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 312,
+          "length" : 37
+        },
+        {
+          "activity" : "validate",
+          "start" : 320,
+          "length" : 104
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 434,
+          "length" : 3159
+        },
+        {
+          "activity" : "generate2",
+          "start" : 572,
+          "length" : 3259
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 5
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 7
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 740,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-at-core-ext-patient-religion.json",
+      "size" : 3890,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 7
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 308,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 309,
+          "length" : 94
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 312,
+          "length" : 374
+        },
+        {
+          "activity" : "validate",
+          "start" : 320,
+          "length" : 569
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 438,
+          "length" : 9388
+        },
+        {
+          "activity" : "generate2",
+          "start" : 575,
+          "length" : 2717
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 3
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 5
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 740,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-at-core-patient.json",
+      "size" : 26256,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 87
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 48
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 309,
+          "length" : 324
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 312,
+          "length" : 1499
+        },
+        {
+          "activity" : "validate",
+          "start" : 321,
+          "length" : 3407
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 326,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 447,
+          "length" : 94213
+        },
+        {
+          "activity" : "generate2",
+          "start" : 578,
+          "length" : 9031
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 5
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 740,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 56
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 780,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ValueSet-v3-EntityCode.xml",
+      "size" : 3723,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 307,
+          "length" : 44
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 308,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 308,
+          "length" : 37
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 313,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 313,
+          "length" : 1609
+        },
+        {
+          "activity" : "validate",
+          "start" : 324,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 541,
+          "length" : 1058
+        },
+        {
+          "activity" : "generate2",
+          "start" : 587,
+          "length" : 47412
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 4
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 739,
+          "length" : 5
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 740,
+          "length" : 5
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 740,
+          "length" : 2
+        }
+      ]
+    }
+  ]
+}

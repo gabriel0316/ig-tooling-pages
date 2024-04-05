@@ -1,0 +1,99 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"AkteurHI","AkteurHI","","","",0,*,"","","","null {[]} {[]}
+","Strukturdaten der beteiligten Einrichtungen/Akteure","","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"AkteurHI.Einrichtung","AkteurHI.Einrichtung","","","",1,1,"","","","string {[]} {[]}
+","Einrichtungsbezeichnung","Einrichtungsbezeichnung","","","","","","","","","",,,,,"",,,,"AkteurHI.Einrichtung",1,1,"",""
+"AkteurHI.Einrichtungsart","AkteurHI.Einrichtungsart","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","extramural | intramural","extramural | intramural","","","","","","","","","",,,,,"",,,,"AkteurHI.Einrichtungsart",1,1,"",""
+"AkteurHI.Fachrichtung","AkteurHI.Fachrichtung","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Fachrichtung (AM | IM | etc.)","Fachrichtung (AM | IM | etc.)","","","","","","","","","",,,,,"",,,,"AkteurHI.Fachrichtung",1,1,"",""
+"AkteurHI.Adresse","AkteurHI.Adresse","","","",1,*,"","","","Address {[]} {[]}
+","Adresse/politischer Bezirk","Adresse/politischer Bezirk","","","","","","","","","",,,,,"",,,,"AkteurHI.Adresse",1,*,"",""
+"AkteurHI.Personalstand","AkteurHI.Personalstand","","","",1,*,"","","","BackboneElement {[]} {[]}
+","Personalstand (Quartalsende) - Anzahl der VZÄ/Köpfe je Berufsgruppe, die am DMP aktiv beteiligt sind","Personalstand (Quartalsende) - Anzahl der VZÄ/Köpfe je Berufsgruppe, die am DMP aktiv beteiligt sind","","","","","","","","","",,,,,"",,,,"AkteurHI.Personalstand",1,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"AkteurHI.Personalstand.id","AkteurHI.Personalstand.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"AkteurHI.Personalstand.extension","AkteurHI.Personalstand.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"AkteurHI.Personalstand.modifierExtension","AkteurHI.Personalstand.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"AkteurHI.Personalstand.Anzahl","AkteurHI.Personalstand.Anzahl","","","",1,1,"","","","integer {[]} {[]}
+","Anzahl","Anzahl","","","","","","","","","",,,,,"",,,,"AkteurHI.Personalstand.Anzahl",1,1,"",""
+"AkteurHI.Personalstand.Berufsgruppe","AkteurHI.Personalstand.Berufsgruppe","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Berufsgruppe","Berufsgruppe","","","","","","","","","",,,,,"",,,,"AkteurHI.Personalstand.Berufsgruppe",1,1,"",""
+"AkteurHI.GDL","AkteurHI.GDL","","","",1,*,"","","","BackboneElement {[]} {[]}
+","GDL","GDL","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL",1,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"AkteurHI.GDL.id","AkteurHI.GDL.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"AkteurHI.GDL.extension","AkteurHI.GDL.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"AkteurHI.GDL.modifierExtension","AkteurHI.GDL.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"AkteurHI.GDL.Vorname","AkteurHI.GDL.Vorname","","","",1,*,"","","","string {[]} {[]}
+","Vorname GDL","Vorname GDL","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL.Vorname",1,*,"",""
+"AkteurHI.GDL.Zuname","AkteurHI.GDL.Zuname","","","",1,*,"","","","string {[]} {[]}
+","Zuname GDL","Zuname GDL","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL.Zuname",1,*,"",""
+"AkteurHI.GDL.Vertragspartnernummer","AkteurHI.GDL.Vertragspartnernummer","","","",1,1,"","","","integer {[]} {[]}
+","Vertragspartnernummer","Vertragspartnernummer","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL.Vertragspartnernummer",1,1,"",""
+"AkteurHI.GDL.Teilnahmebeginn","AkteurHI.GDL.Teilnahmebeginn","","","",1,1,"","","","date {[]} {[]}
+","Teilnahmebeginn","Teilnahmebeginn","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL.Teilnahmebeginn",1,1,"",""
+"AkteurHI.GDL.Schulungsnachweis","AkteurHI.GDL.Schulungsnachweis","","","",1,1,"","","","boolean {[]} {[]}
+","Schulungsnachweis","Schulungsnachweis","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL.Schulungsnachweis",1,1,"",""
+"AkteurHI.GDL.Austritt","AkteurHI.GDL.Austritt","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Austritt","Austritt","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL.Austritt",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"AkteurHI.GDL.Austritt.id","AkteurHI.GDL.Austritt.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"AkteurHI.GDL.Austritt.extension","AkteurHI.GDL.Austritt.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"AkteurHI.GDL.Austritt.modifierExtension","AkteurHI.GDL.Austritt.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"AkteurHI.GDL.Austritt.Austrittsanfrage","AkteurHI.GDL.Austritt.Austrittsanfrage","","","",0,1,"","","","boolean {[]} {[]}
+","Austrittsanfrage","Austrittsanfrage","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL.Austritt.Austrittsanfrage",0,1,"",""
+"AkteurHI.GDL.Austritt.Teilnahmeende","AkteurHI.GDL.Austritt.Teilnahmeende","","","",0,1,"","","","date {[]} {[]}
+","Teilnahmeende","Teilnahmeende","","","","","","","","","",,,,,"",,,,"AkteurHI.GDL.Austritt.Teilnahmeende",0,1,"",""
+"AkteurHI.Schulungen","AkteurHI.Schulungen","","","",1,1,"","","","BackboneElement {[]} {[]}
+","Schulung","Schulung","","","","","","","","","",,,,,"",,,,"AkteurHI.Schulungen",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"AkteurHI.Schulungen.id","AkteurHI.Schulungen.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"AkteurHI.Schulungen.extension","AkteurHI.Schulungen.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"AkteurHI.Schulungen.modifierExtension","AkteurHI.Schulungen.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"AkteurHI.Schulungen.aktiv","AkteurHI.Schulungen.aktiv","","","",1,1,"","","","boolean {[]} {[]}
+","Schulungsaktivitäten","Schulungsaktivitäten","","","","","","","","","",,,,,"",,,,"AkteurHI.Schulungen.aktiv",1,1,"",""
+"AkteurHI.Schulungen.Anzahl","AkteurHI.Schulungen.Anzahl","","","",0,1,"","","","integer {[]} {[]}
+","Anzahl der durchgeführten DM(P)-spezifischen Patientenschulungen","Anzahl der durchgeführten DM(P)-spezifischen Patientenschulungen","","","","","","","","","",,,,,"",,,,"AkteurHI.Schulungen.Anzahl",0,1,"",""
+"AkteurHI.Konsultationen","AkteurHI.Konsultationen","","","",1,1,"","","","date {[]} {[]}
+","Datum e-card-Steckung","Datum e-card-Steckung","","","","","","","","","",,,,,"",,,,"AkteurHI.Konsultationen",1,1,"",""
