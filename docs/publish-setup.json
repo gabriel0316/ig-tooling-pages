@@ -2,7 +2,7 @@
     "website" : {
       "style" : "fhir.layout",
       "url" : "https://gabriel0316.github.io/ig-tooling-pages",
-      "server" : "apache",
+      "server" : "asp-old",
       "org" : "GKL"
     },
     "feeds" : {

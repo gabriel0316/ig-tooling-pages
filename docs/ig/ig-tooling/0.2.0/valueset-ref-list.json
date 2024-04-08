@@ -1,0 +1,109 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-PatientHI.html" : "Patienten-Stammdaten"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-EntityCode",
+      "version" : "0.2.0",
+      "status" : "active",
+      "name" : "EntityCode",
+      "title" : "EntityCode",
+      "description" : "A value representing the specific kind of Entity the instance represents.\r\n\r\n*Examples:* A medical building, a Doberman Pinscher, a blood collection tube, a tissue biopsy.\r\n\r\n*Rationale:* For each Entity, the value for this attribute is drawn from one of several coding systems depending on the Entity classCode, such as living subjects (animal and plant taxonomies), chemical substance (e.g., IUPAC code), organizations, insurance company, government agency, hospital, park, lake, syringe, etc. It is possible that Entity.code may be so fine grained that it represents a single instance. An example is the CDC vaccine manufacturer code, modeled as a concept vocabulary, when in fact each concept refers to a single instance.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+        "urn:iso:std:iso:3166",
+        "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.16040"],
+      "sources" : ["2.16.840.1.113883.1.11.16040"]
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-MaterialEntityClassType",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "MaterialEntityClassType",
+      "title" : "MaterialEntityClassType",
+      "description" : "Types of Material for EntityClass \"MAT\"",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+        "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.16041"],
+      "sources" : ["2.16.840.1.113883.1.11.16041"],
+      "uses" : {
+      },
+      "ValueSet-v3-EntityCode.html" : "EntityCode"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-OrganizationEntityType",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "OrganizationEntityType",
+      "title" : "OrganizationEntityType",
+      "description" : "Further classifies entities of classCode ORG.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-EntityCode"],
+      "oids" : ["2.16.840.1.113883.1.11.19608"],
+      "sources" : ["2.16.840.1.113883.1.11.19608"],
+      "uses" : {
+      },
+      "ValueSet-v3-EntityCode.html" : "EntityCode"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-PlaceEntityType",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "PlaceEntityType",
+      "title" : "PlaceEntityType",
+      "description" : "Types of places for EntityClass \"PLC\"",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+        "urn:iso:std:iso:3166"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.16100"],
+      "sources" : ["2.16.840.1.113883.1.11.16100"],
+      "uses" : {
+      },
+      "ValueSet-v3-EntityCode.html" : "EntityCode"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ResourceGroupEntityType",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ResourceGroupEntityType",
+      "title" : "ResourceGroupEntityType",
+      "description" : "Codes to characterize a Resource Group using categories that typify its membership and/or function\r\n\r\n.\r\n\r\n*Example:* PractitionerGroup",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-EntityCode"],
+      "oids" : ["2.16.840.1.113883.1.11.19652"],
+      "sources" : ["2.16.840.1.113883.1.11.19652"],
+      "uses" : {
+      },
+      "ValueSet-v3-EntityCode.html" : "EntityCode"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-xAdministeredSubstance",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "XAdministeredSubstance",
+      "title" : "x_AdministeredSubstance",
+      "description" : "A type of Manufactured Material that is administered to a living subject, either by a healthcare professional or auto-administered, within a healthcare context.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-EntityCode"],
+      "oids" : ["2.16.840.1.113883.1.11.19667"],
+      "sources" : ["2.16.840.1.113883.1.11.19667"],
+      "uses" : {
+      },
+      "ValueSet-v3-EntityCode.html" : "EntityCode"
+    }
+  ]
+}
