@@ -7,6 +7,16 @@
       "sequence" : "ci-build"
     },
     {
+      "version" : "0.3.0",
+      "path" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.3.0",
+      "status" : "trial-use",
+      "sequence" : "DSTU 1",
+      "fhirversion" : "4.0.1",
+      "date" : "2025-01-20",
+      "desc" : "Third attempt of release",
+      "changes" : "changelog.html"
+    },
+    {
       "version" : "0.2.0",
       "path" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0",
       "status" : "trial-use",
