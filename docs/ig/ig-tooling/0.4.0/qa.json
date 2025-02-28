@@ -1,0 +1,19 @@
+{
+  "url" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling",
+  "name" : "IntegrierteVersorgungHerzinsuffizienz",
+  "title" : null,
+  "description" : "This IG is built in order to describe the IG tooling in Austria.",
+  "status" : "draft",
+  "package-id" : "hl7.at.fhir.gkl.ig-tooling",
+  "ig-ver" : "0.4.0",
+  "date" : "Fri, 28 Feb, 2025 22:33:51 +0100",
+  "dateISO8601" : "2025-02-28T22:33:51+01:00",
+  "errs" : 17,
+  "warnings" : 407,
+  "hints" : 3,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 7939936736
+}
