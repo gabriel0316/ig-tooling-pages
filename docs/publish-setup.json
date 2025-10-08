@@ -3,7 +3,8 @@
       "style" : "fhir.layout",
       "url" : "https://gabriel0316.github.io/ig-tooling-pages",
       "server" : "asp-old",
-      "org" : "GKL"
+      "org" : "GKL",
+      "clone-xml-json" : false
     },
     "feeds" : {
       "package" : "package-feed.xml",
