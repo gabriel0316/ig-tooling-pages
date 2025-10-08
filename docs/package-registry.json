@@ -26,11 +26,11 @@
       "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
       "category" : "Research",
       "ci-build" : "http://build.fhir.org/ig/gabriel0316/ig-tooling/",
-      "version-count" : 4,
+      "version-count" : 5,
       "latest" : {
-        "version" : "0.4.0",
-        "date" : "2025-02-28",
-        "path" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.4.0"
+        "version" : "0.5.2",
+        "date" : "2025-10-08",
+        "path" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.5.2"
       },
       "milestone" : {
         "version" : "0.2.0",
