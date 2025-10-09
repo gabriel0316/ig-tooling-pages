@@ -1,0 +1,6 @@
+{
+  "version" : "0.2.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20240408140459",
+  "name" : "hl7.at.fhir.gkl.ig-tooling"
+}
