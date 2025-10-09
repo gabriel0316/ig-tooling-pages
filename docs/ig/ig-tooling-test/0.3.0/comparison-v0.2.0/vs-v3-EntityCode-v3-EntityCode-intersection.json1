@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "06a4bffc-4631-4148-a722-905ea3369de5-30",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/06a4bffc-4631-4148-a722-905ea3369de5-30",
+  "name" : "IntersectionEntityCodeAndEntityCode",
+  "title" : "Intersection of EntityCode And EntityCode",
+  "status" : "active",
+  "date" : "2025-01-20T15:38:08+01:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/v3-MaterialEntityClassType"]
+    },
+    {
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/v3-PlaceEntityType"]
+    },
+    {
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/v3-OrganizationEntityType"]
+    },
+    {
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/v3-ResourceGroupEntityType"]
+    },
+    {
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/v3-xAdministeredSubstance"]
+    }],
+    "exclude" : [{
+      "concept" : [{
+        "code" : "_OrganizationEntityType"
+      }]
+    }]
+  }
+}
