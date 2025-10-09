@@ -49,7 +49,7 @@
     }
   ],
   "package-id" : "hl7.at.fhir.gkl.ig-tooling",
-  "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
+  "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling-test",
   "title" : "IG Tooling by GKL",
   "category" : "Research",
   "introduction" : "Test introduction"
