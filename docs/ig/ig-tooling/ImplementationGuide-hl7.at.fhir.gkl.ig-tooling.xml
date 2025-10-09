@@ -3,14 +3,14 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.at.fhir.gkl.ig-tooling"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>IntegrierteVersorgungHerzinsuffizienz</h2><p>The official URL for this implementation guide is: </p><pre>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling</pre><div><p>This IG is built in order to describe the IG tooling in Austria.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.at.fhir.gkl.ig-tooling</b></p><a name="hl7.at.fhir.gkl.ig-tooling"> </a><a name="hchl7.at.fhir.gkl.ig-tooling"> </a><h2>IntegrierteVersorgungHerzinsuffizienz</h2><p>The official URL for this implementation guide is: </p><pre>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling</pre><div><p>This IG is built in order to describe the IG tooling in Austria.</p>
 </div></div>
   </text>
   <url value="https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling"/>
-  <version value="0.2.0"/>
+  <version value="0.5.1"/>
   <name value="IntegrierteVersorgungHerzinsuffizienz"/>
   <status value="draft"/>
-  <date value="2024-04-08T14:08:43+00:00"/>
+  <date value="2025-10-09T12:51:03+02:00"/>
   <description value="This IG is built in order to describe the IG tooling in Austria."/>
   <packageId value="hl7.at.fhir.gkl.ig-tooling"/>
   <license value="CC0-1.0"/>
@@ -21,7 +21,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="5.3.0"/>
+    <version value="6.5.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -29,12 +29,17 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="1.0.0"/>
+    <version value="5.2.0"/>
   </dependsOn>
   <dependsOn id="hl7_cda_uv_core">
     <uri value="http://hl7.org/cda/stds/core/ImplementationGuide/hl7.cda.uv.core"/>
     <packageId value="hl7.cda.uv.core"/>
     <version value="2.0.0-sd-snapshot1"/>
+  </dependsOn>
+  <dependsOn id="hl7_at_fhir_core_r4">
+    <uri value="http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/ImplementationGuide/hl7.at.fhir.core.r4"/>
+    <packageId value="hl7.at.fhir.core.r4"/>
+    <version value="2.0.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -50,7 +55,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="trial-use"/>
+        <valueString value="ballot"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -238,7 +243,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -253,7 +258,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="trial-use"/>
+        <valueString value="ballot"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

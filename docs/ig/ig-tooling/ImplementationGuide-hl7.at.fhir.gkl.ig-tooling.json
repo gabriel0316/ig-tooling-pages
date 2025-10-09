@@ -2,14 +2,14 @@
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.at.fhir.gkl.ig-tooling",
   "text" : {
-    "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>IntegrierteVersorgungHerzinsuffizienz</h2><p>The official URL for this implementation guide is: </p><pre>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling</pre><div><p>This IG is built in order to describe the IG tooling in Austria.</p>\n</div></div>"
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.at.fhir.gkl.ig-tooling</b></p><a name=\"hl7.at.fhir.gkl.ig-tooling\"> </a><a name=\"hchl7.at.fhir.gkl.ig-tooling\"> </a><h2>IntegrierteVersorgungHerzinsuffizienz</h2><p>The official URL for this implementation guide is: </p><pre>https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling</pre><div><p>This IG is built in order to describe the IG tooling in Austria.</p>\n</div></div>"
   },
   "url" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/ImplementationGuide/hl7.at.fhir.gkl.ig-tooling",
-  "version" : "0.2.0",
+  "version" : "0.5.1",
   "name" : "IntegrierteVersorgungHerzinsuffizienz",
   "status" : "draft",
-  "date" : "2024-04-08T14:08:43+00:00",
+  "date" : "2025-10-09T12:51:03+02:00",
   "description" : "This IG is built in order to describe the IG tooling in Austria.",
   "packageId" : "hl7.at.fhir.gkl.ig-tooling",
   "license" : "CC0-1.0",
@@ -22,7 +22,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "6.5.0"
   },
   {
     "id" : "hl7ext",
@@ -32,13 +32,19 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.2.0"
   },
   {
     "id" : "hl7_cda_uv_core",
     "uri" : "http://hl7.org/cda/stds/core/ImplementationGuide/hl7.cda.uv.core",
     "packageId" : "hl7.cda.uv.core",
     "version" : "2.0.0-sd-snapshot1"
+  },
+  {
+    "id" : "hl7_at_fhir_core_r4",
+    "uri" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/ImplementationGuide/hl7.at.fhir.core.r4",
+    "packageId" : "hl7.at.fhir.core.r4",
+    "version" : "2.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -59,7 +65,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "trial-use"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -318,7 +324,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
     },
     {
       "extension" : [{
@@ -338,7 +344,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "trial-use"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

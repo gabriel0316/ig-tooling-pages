@@ -5,15 +5,15 @@
   "description" : "This IG is built in order to describe the IG tooling in Austria.",
   "status" : "draft",
   "package-id" : "hl7.at.fhir.gkl.ig-tooling",
-  "ig-ver" : "0.2.0",
-  "date" : "Mon, 08 Apr, 2024 14:08:43 +0000",
-  "dateISO8601" : "2024-04-08T14:08:43+00:00",
-  "errs" : 13,
-  "warnings" : 406,
-  "hints" : 1,
+  "ig-ver" : "0.5.1",
+  "date" : "Thu, 09 Oct, 2025 12:51:22 +0200",
+  "dateISO8601" : "2025-10-09T12:51:22+02:00",
+  "errs" : 12,
+  "warnings" : 452,
+  "hints" : 3,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 3185599200
+  "maxMemory" : 8140690512
 }
