@@ -12,7 +12,7 @@
     },
     "layout-rules" : [{
       "npm" : "hl7.at.fhir.gkl.*",
-      "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/{5}",
-      "destination" : "/ig/{5}"
+      "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling-test",
+      "destination" : "/ig/ig-tooling-test"
     }]
   }
