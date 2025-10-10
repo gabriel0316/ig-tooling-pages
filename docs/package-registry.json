@@ -37,6 +37,25 @@
         "date" : "2024-04-08",
         "path" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
       }
+    },
+    {
+      "path" : "ig\\ig-tooling-test/package-list.json",
+      "package-id" : "hl7.at.fhir.gkl.ig-tooling",
+      "title" : "IG Tooling by GKL",
+      "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling-test",
+      "category" : "Research",
+      "ci-build" : "http://build.fhir.org/ig/gabriel0316/ig-tooling/",
+      "version-count" : 5,
+      "latest" : {
+        "version" : "0.5.4",
+        "date" : "2025-10-10",
+        "path" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling-test/0.5.4"
+      },
+      "milestone" : {
+        "version" : "0.2.0",
+        "date" : "2024-04-08",
+        "path" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
+      }
     }
   ]
 }
