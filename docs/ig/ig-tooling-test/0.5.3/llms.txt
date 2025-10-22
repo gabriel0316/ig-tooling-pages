@@ -1,0 +1,41 @@
+# hl7.at.fhir.gkl.ig-tooling#0.5.3: null
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Changelog](changelog.md)
+
+## Resources
+
+### ValueSets
+
+* [EntityCode](ValueSet-v3-EntityCode.md)
+
+### Logicals
+
+* [Strukturdaten der beteiligten Einrichtungen/Akteure](StructureDefinition-AkteurHI.md)
+* [Medizinische Datensätze - Erstdokumentation (im Rahmen der Erstabklärung erhoben/durchgeführt)](StructureDefinition-ErstdokumentationHI.md)
+* [Medizinische Datensätze - Folgedokumentation](StructureDefinition-FolgedokumentationHI.md)
+* [Patienten-Stammdaten](StructureDefinition-PatientHI.md)
+
+### Complex-type Profiles
+
+* [HL7® AT Core Address Profile](StructureDefinition-at-core-address.md)
+
+### Logical Profiles
+
+* [CDAPatient](StructureDefinition-CDAPatient.md)
+
+### Resource Profiles
+
+* [HL7® AT Core Patient Profile](StructureDefinition-at-core-patient.md)
+
+### Extensions
+
+* [Address Additional Information](StructureDefinition-at-core-ext-address-additionalInformation.md)
+* [Patient Religion](StructureDefinition-at-core-ext-patient-religion.md)
+
+### ImplementationGuides
+
+* [IntegrierteVersorgungHerzinsuffizienz](index.md)

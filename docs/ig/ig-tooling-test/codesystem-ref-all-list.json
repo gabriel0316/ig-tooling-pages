@@ -121,7 +121,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "AdministrativeGender",
       "title" : "AdministrativeGender",
@@ -129,11 +129,11 @@
       "oids" : ["2.16.840.1.113883.5.1"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.2.0/ValueSet-v3-AdministrativeGender.html" : "AdministrativeGender"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-AdministrativeGender.html" : "AdministrativeGender"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityClass",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "EntityClass",
       "title" : "EntityClass",
@@ -141,11 +141,11 @@
       "oids" : ["2.16.840.1.113883.5.41"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.2.0/ValueSet-v3-EntityClassLivingSubject.html" : "EntityClassLivingSubject"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-EntityClassLivingSubject.html" : "EntityClassLivingSubject"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityDeterminer",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "EntityDeterminer",
       "title" : "EntityDeterminer",
@@ -153,11 +153,11 @@
       "oids" : ["2.16.840.1.113883.5.30"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.2.0/ValueSet-v3-EntityDeterminer.html" : "EntityDeterminer"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-EntityDeterminer.html" : "EntityDeterminer"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-Ethnicity",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "Ethnicity",
       "title" : "Ethnicity",
@@ -165,11 +165,11 @@
       "oids" : ["2.16.840.1.113883.5.50"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.2.0/ValueSet-v3-Ethnicity.html" : "Ethnicity"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-Ethnicity.html" : "Ethnicity"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "MaritalStatus",
       "title" : "MaritalStatus",
@@ -177,12 +177,12 @@
       "oids" : ["2.16.840.1.113883.5.2"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
-      "http://terminology.hl7.org/5.2.0/ValueSet-v3-MaritalStatus.html" : "MaritalStatus"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-MaritalStatus.html" : "MaritalStatus",
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "NullFlavor",
       "title" : "NullFlavor",
@@ -190,12 +190,12 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
-      "http://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/ValueSet-CDANullFlavor.html" : "CDANullFlavor"
+      "http://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/ValueSet-CDANullFlavor.html" : "CDANullFlavor",
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-Race",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "Race",
       "title" : "Race",
@@ -203,11 +203,11 @@
       "oids" : ["2.16.840.1.113883.5.104"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.2.0/ValueSet-v3-Race.html" : "Race"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-Race.html" : "Race"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ReligiousAffiliation",
       "title" : "Religious Affiliation",
@@ -215,7 +215,7 @@
       "oids" : ["2.16.840.1.113883.5.1076"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.2.0/ValueSet-v3-ReligiousAffiliation.html" : "ReligiousAffiliation"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ReligiousAffiliation.html" : "ReligiousAffiliation"
     },
     {
       "url" : "urn:ietf:bcp:47",
