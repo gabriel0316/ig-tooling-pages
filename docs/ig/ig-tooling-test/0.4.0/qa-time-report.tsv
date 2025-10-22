@@ -1,0 +1,12 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-hl7.at.fhir.gkl.ig-tooling.json	6331	-	0	0	0	0	0	0	11	825	0	0	0	0	0	0	0	1	0	0	179	201	0	0	1	7	0	1
+fsh-generated/resources/StructureDefinition-AkteurHI.json	7192	25	0	0	0	1	0	76	0	550	0	0	1	0	0	0	0	2	0	0	574	2937	0	0	0	11	0	1
+fsh-generated/resources/StructureDefinition-CDAPatient.json	1534	16	1	0	0	0	0	62	0	16	0	0	0	0	0	0	0	1	0	0	235	858	0	0	1	7	0	0
+fsh-generated/resources/StructureDefinition-ErstdokumentationHI.json	21298	20	0	0	0	0	0	164	0	47	0	0	0	0	0	0	0	2	0	0	1086	1863	0	0	0	23	0	1
+fsh-generated/resources/StructureDefinition-FolgedokumentationHI.json	23321	17	0	0	1	0	0	150	0	51	0	0	0	0	0	0	0	2	0	0	1270	2215	0	1	0	29	0	2
+fsh-generated/resources/StructureDefinition-PatientHI.json	10893	18	1	0	0	0	0	113	0	460	0	0	1	0	0	0	0	1	0	0	569	1644	0	0	0	13	0	0
+fsh-generated/resources/StructureDefinition-at-core-address.json	5753	18	6	0	0	0	0	109	1	73	0	0	0	0	0	0	0	0	0	0	303	952	0	0	0	10	0	0
+fsh-generated/resources/StructureDefinition-at-core-ext-address-additionalInformation.json	1563	20	1	0	0	0	0	58	0	15	0	0	0	0	0	0	0	0	0	0	135	761	0	0	1	2	0	0
+fsh-generated/resources/StructureDefinition-at-core-ext-patient-religion.json	3890	16	7	0	0	0	0	39	0	471	0	0	0	0	0	0	0	0	0	0	442	1077	0	0	0	9	0	1
+fsh-generated/resources/StructureDefinition-at-core-patient.json	26256	25	0	0	0	0	0	703	1	1001	0	0	2	0	0	0	0	6	0	0	3196	3975	0	0	0	89	0	2
+input/resources/ValueSet-v3-EntityCode.xml	3723	53	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	58	24186	0	0	0	1	0	0
