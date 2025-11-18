@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta http-equiv="refresh" content="0; url='https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling-test/'" /> -->
+    <meta charset="UTF-8">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Accept-Header kann im Browser nicht direkt ausgelesen werden.
+            // Wir approximieren anhand gängiger MIME-Erkennungen und Fallbacks.
+            const accept = navigator.mimeTypes
+                ? Object.keys(navigator.mimeTypes).join(",").toLowerCase()
+                : navigator.userAgent.toLowerCase(); // Fallback
+
+            const base = "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling-test/0.5.3/";
+            let target = "StructureDefinition-AkteurHI.xml"; // Default
+
+            if (accept.includes("application/json+fhir"))
+                target = "StructureDefinition-AkteurHI.json2";
+            else if (accept.includes("application/fhir+json"))
+                target = "StructureDefinition-AkteurHI.json1";
+            else if (accept.includes("application/xml+fhir"))
+                target = "StructureDefinition-AkteurHI.xml2";
+            else if (accept.includes("application/fhir+xml"))
+                target = "StructureDefinition-AkteurHI.xml1";
+            else if (accept.includes("json"))
+                target = "StructureDefinition-AkteurHI.json";
+            else if (accept.includes("html"))
+                target = "StructureDefinition-AkteurHI.html";
+
+            window.location.replace(base + target);
+        });
+    </script>
+</head>
+
+</html>
